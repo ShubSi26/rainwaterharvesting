@@ -1,0 +1,32 @@
+body{
+    background-image: url(image/image7.jpg);
+}
+#rw{
+    text-decoration: underline;
+    color: purple;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+}
+#one{
+    padding-left: 50px;
+    padding-right: 50px;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+#one iframe{
+    border-radius: 10px;
+}
+#one h1{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+}
+#one p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+#one div{
+    width: 40%;
+}

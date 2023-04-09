@@ -1,0 +1,39 @@
+body{
+    background-image: url(image/image7.jpg);
+}
+#ing{
+    padding-left: 5%;
+    padding-right: 5%;
+    width:auto;
+    height: 720px;
+    display: flex;
+    gap:80px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#ing img{
+    border: 5px solid purple;
+    border-radius: 10px;
+    height: 300px;
+    width: 400px;
+    transition: 1s;
+}
+#ing img:hover{
+    border-radius: 0px;
+    border:0px;
+    height:70%;
+    width:50%;
+}
+#rw{
+    text-decoration: underline;
+    color: purple;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+}
+#hv{
+    text-decoration: underline;
+    color: purple;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}

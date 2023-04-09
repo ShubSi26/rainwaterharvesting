@@ -1,0 +1,232 @@
+body{
+    background-image: url(image/image7.jpg);
+}
+#container1{
+    width: 100%;
+    height: 720px;
+    background-image: url(image/image4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid orangered;
+    border-radius: 15px;
+    animation: mymove 25s infinite;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+@keyframes mymove {
+    10%{top: 0px; background-image: url(image/image4.jpg);}
+    30%{top: 0px; background-image: url(image/image3.jpg);}
+    50%{top: 0px; background-image: url(image/image2.jpg);}
+    70%{top: 0px; background-image: url(image/image1.jpg);}
+    79%{top: 0px; background-image: url(image/image5.jpg);}
+    100%{top: 0px; background-image: url(image/image4.jpg);}
+}
+#heding{
+    background-color: rgba(0, 0, 0, 0.30);    
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    height: 235px;
+    width: auto;
+    font-family: 'Arvo', serif;
+    font-size: 100px;
+    color: aquamarine;
+    position: relative;
+    top:95px;
+}
+#qute{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    color: rgb(1, 35, 255);
+    position: relative;
+    bottom:75px;
+}
+.qts{
+    display: inline;
+    margin: 0px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 100px;
+    color: rgb(0, 238, 255);
+}
+#container2{
+    height: auto;
+    display: flex;
+    padding: 50px;
+    gap: 113px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#lgo{
+    height: 158px;
+    width: 262px;   
+    position:relative;
+    top: 50px;
+}
+.ctn2{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(104, 255, 255);
+    height: 80px;
+    width: 27%;
+    border-radius: 15px;
+    transition: 1s;
+    overflow: hidden;
+    cursor: pointer;
+}
+.ctn2:hover{
+    height:140px;
+    background-color: rgba(0, 0, 0, 0.10);    
+    backdrop-filter: blur(5px);
+    border:5px solid rgb(52, 25, 255);
+}
+a{
+    text-decoration: none;
+    color:black
+}
+.drp{
+    transition-delay: 0.2s; 
+    transition-timing-function: linear;
+    font-size: 20px;
+}
+#hr1{
+    width: 90%;
+    border-top: 5px solid red;
+}
+#container3{
+    position: relative;
+    align-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: auto;
+
+}
+#prgf{
+    font-size: 35px ;
+    font-family: 'Josefin Sans', sans-serif;
+padding-left: 70px;
+padding-right: 70px;
+}
+#R{
+    color: blue;
+    font-size: 100px ;
+}
+#container4{
+    height:auto;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: baseline; 
+    row-gap: 30px;
+}
+.applec{
+    font-family: 'Permanent Marker', cursive;
+    width:90%;
+    height:40px;
+    background-color: blue;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 25px;
+    color: azure;
+    transition: height 1s;
+    overflow: hidden;
+}
+#apl{
+    text-decoration: underline;
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+.applec:hover{
+    height:400px;
+    border:15px double rgb(255, 255, 255);
+}
+.pgf{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.applec1{
+    font-family: 'Permanent Marker', cursive;
+    width:90%;
+    height:40px;
+    background-color: rgb(162, 0, 255);
+    border-radius: 15px;
+    text-align: center;
+    font-size: 25px;
+    color: azure;
+    transition: height 1s;
+    overflow: hidden;
+}
+.applec1:hover{
+    height:400px;
+    border:15px double rgb(255, 255, 255);
+}
+#container5{
+    height: 1000px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#apl1{
+    padding-left: 5%;
+    text-decoration: underline;
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
+}
+#tchq{
+    color: rgb(85, 0, 100);
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: underline;
+}
+#detail{
+    font-size:30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#imgs{
+    height: 200px;
+    width:280px;
+    border:5px solid blueviolet;
+    border-radius: 10px;
+    transition: 2s;
+}
+#igm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 80px;
+}
+#imgs:hover{
+    border:0px;
+    border-radius: 0px;
+    height: 450px;
+    width:550px;
+}
+#lst{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+#rfr{   
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+    color:azure;
+    font-family: 'Permanent Marker', cursive;
+    margin-left: 150px;
+    margin-right: 50px;
+    width: 80%;
+    height:40px;
+    background-color: rgb(226, 43, 92);
+    border-radius: 15px;
+}
+#h22{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}

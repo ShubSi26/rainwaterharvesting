@@ -1,0 +1,61 @@
+body{
+    background-image: url(image/image7.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#toi{
+    border-radius: 15px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 50px;
+    background-color: rgba(0, 0, 0, 0.30);
+}
+#toi img{
+    border:7px solid orangered;
+    border-radius: 10px;
+    height: 170px;
+    width:85%;
+    transition: 0.8s;
+}
+#toi img:hover{
+    cursor: pointer;
+    height: 200px;
+    width:90%;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
+}
+#ti{
+    border-radius: 10px;
+    margin:40px;
+    width: 200px;
+    height: 100px;
+    transition: 0.8s;
+}
+#ti:hover{
+    cursor: pointer;
+    width: 230px;
+    height: 130px;
+}
+#ti1{
+    border-radius: 10px;
+    margin:40px;
+    width: 120px;
+    height: 100px;
+    transition: 0.8s;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+}
+#ti1:hover{
+    cursor: pointer;
+    width: 150px;
+    height: 120px;
+}
