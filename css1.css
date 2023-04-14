@@ -1,5 +1,38 @@
+html { 
+    scroll-behavior: smooth; 
+  }
 body{
-    background-image: url(image/image7.jpg);
+    margin:-8px;
+    background-color: rgb(223, 255, 255);
+}
+#navbr{
+    display: flex;
+    justify-content: center;
+}
+#navbr ul{
+    z-index: 1;
+    background-color: white;
+    position: fixed;
+    text-align: center;
+    border: 5px solid cyan;
+    width:fit-content;
+    border-radius: 20px;
+}
+#navbr ul li{
+    color: cyan;
+    display: inline;
+    float: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+    transition: 0.1s;
+}
+#navbr ul li:hover{
+    padding: 15px;
+    background-color: aqua;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
 }
 #container1{
     width: 100%;
@@ -7,8 +40,6 @@ body{
     background-image: url(image/image4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    border: 2px solid orangered;
-    border-radius: 15px;
     animation: mymove 25s infinite;
     display: flex;
     align-content: center;
@@ -18,12 +49,12 @@ body{
     align-items: center;
 }
 @keyframes mymove {
-    10%{top: 0px; background-image: url(image/image4.jpg);}
-    30%{top: 0px; background-image: url(image/image3.jpg);}
-    50%{top: 0px; background-image: url(image/image2.jpg);}
-    70%{top: 0px; background-image: url(image/image1.jpg);}
-    79%{top: 0px; background-image: url(image/image5.jpg);}
-    100%{top: 0px; background-image: url(image/image4.jpg);}
+    10%{background-image: url(image/image4.jpg);}
+    30%{background-image: url(image/image3.jpg);}
+    50%{background-image: url(image/image2.jpg);}
+    70%{background-image: url(image/image1.jpg);}
+    79%{background-image: url(image/image5.jpg);}
+    100%{background-image: url(image/image4.jpg);}
 }
 #heding{
     background-color: rgba(0, 0, 0, 0.30);    
@@ -52,6 +83,7 @@ body{
     color: rgb(0, 238, 255);
 }
 #container2{
+    background-image: linear-gradient(rgba(105, 255, 255, 0.533),white);
     height: auto;
     display: flex;
     padding: 50px;
@@ -98,6 +130,7 @@ a{
     border-top: 5px solid red;
 }
 #container3{
+    background-image: linear-gradient(to bottom right,rgb(255, 59, 222),rgb(255, 252, 66) );
     position: relative;
     align-content: flex-start;
     display: flex;
@@ -107,6 +140,8 @@ a{
 
 }
 #prgf{
+    padding-top: 30px;
+    padding-bottom: 30px;
     font-size: 35px ;
     font-family: 'Josefin Sans', sans-serif;
 padding-left: 70px;
@@ -116,7 +151,11 @@ padding-right: 70px;
     color: blue;
     font-size: 100px ;
 }
+.grd{
+    background-image: linear-gradient(rgb(255, 252, 66),rgb(223, 255, 255));
+}
 #container4{
+
     height:auto;
     padding-left: 70px;
     padding-right: 70px;
